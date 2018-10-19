@@ -25,6 +25,12 @@ const app = {
   logFile: path.join(__dirname, '../../../logs/combined.log'),
 
   /**
+   * Type de sortie de log (JSON ou NORMAL)
+   * @type {string}
+   */
+  logType: 'JSON',
+
+  /**
    * Liste de proxys pour rebond vers PFD
    * @type {object[]}
    */
